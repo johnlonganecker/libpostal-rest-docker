@@ -10,7 +10,7 @@ that makes it easy interact with libpostal.
 
 ## Build image and start up container
 ```
-docker build -t libpostal-rest .
+docker build -t libpostal-rest https://github.com/johnlonganecker/libpostal-rest-docker.git
 docker run -d -p 8080:8080 libpostal-rest
 ```
 
